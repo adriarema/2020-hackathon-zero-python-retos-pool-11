@@ -8,6 +8,6 @@ def RandomPasswordGenerator(passLen):
     password = ''
 
     for i in range(passLen):
-        password+=characters[random.randint(0, len(characters))]
+        password += characters[random.randint(0, len(characters))]
     
     return password
